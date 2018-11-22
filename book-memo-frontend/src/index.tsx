@@ -1,10 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import {Main} from './components/Main'
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// material
+import "@material/react-drawer/dist/drawer.css";
+import "@material/react-list/dist/list.css";
+import '@material/react-material-icon/dist/material-icon.css';
+import '@material/react-top-app-bar/dist/top-app-bar.css';
+
+ReactDOM.render(<Main/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

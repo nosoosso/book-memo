@@ -1,0 +1,11 @@
+.drawerContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.drawerAppContent {
+  flex: auto;
+  overflow: auto;
+}
