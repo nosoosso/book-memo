@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@material/react-drawer": "^0.7.0",
+    "@material/react-fab": "^0.7.0",
     "@material/react-list": "^0.7.0",
     "@material/react-material-icon": "^0.7.0",
     "@material/react-top-app-bar": "^0.7.0",
@@ -13,6 +14,7 @@
     "@types/react-dom": "^16.0.9",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1",
     "typescript": "^3.1.6"
   },
